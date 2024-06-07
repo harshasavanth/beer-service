@@ -1,4 +1,4 @@
-package com.microservice.beer_service;
+package com.microservice.beerservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
