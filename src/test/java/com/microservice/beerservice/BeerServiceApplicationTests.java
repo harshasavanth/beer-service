@@ -1,4 +1,4 @@
-package com.microservice.beer_service;
+package com.microservice.beerservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
