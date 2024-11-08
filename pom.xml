@@ -97,7 +97,6 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<overwrite>true</overwrite>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.mapstruct</groupId>
@@ -118,7 +117,6 @@
 					<compilerArgs>
 						<compilerArg>
 							-Amapstruct.defaultComponentModel=spring
-							-Xpkginfo:always
 						</compilerArg>
 					</compilerArgs>
 				</configuration>
