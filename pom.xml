@@ -117,6 +117,7 @@
 					<compilerArgs>
 						<compilerArg>
 							-Amapstruct.defaultComponentModel=spring
+							<arg>-Xpkginfo:always</arg>
 						</compilerArg>
 					</compilerArgs>
 				</configuration>
