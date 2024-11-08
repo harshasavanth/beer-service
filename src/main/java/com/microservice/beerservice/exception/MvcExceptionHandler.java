@@ -1,4 +1,4 @@
-package com.microservice.beerservice.web.controller;
+package com.microservice.beerservice.exception;
 
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;
