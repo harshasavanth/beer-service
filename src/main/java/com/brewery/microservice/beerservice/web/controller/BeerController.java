@@ -35,7 +35,6 @@ public class BeerController {
                                                     @RequestParam(value = "showInventoryOnHand", required = false) Boolean showInventoryOnHand,
                                                     @RequestParam(value = "pageNumber", required = false) Integer pageNumber,
                                                     @RequestParam(value = "pageSize", required = false) Integer pageSize) {
-        System.out.println("asd " + beerName + beerStyle + showInventoryOnHand);
         if (showInventoryOnHand == null) {
             showInventoryOnHand = false;
         }
